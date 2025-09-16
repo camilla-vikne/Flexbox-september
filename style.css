@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100svh;
+  width: 100svw;
+  background-color: rgb(59, 169, 59);
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+section {
+  background-color: aliceblue;
+  height: 200px;
+  width: 200px;
+  display: flex;
+}
+p {
+  font-size: 20px;
+}
+#flex-container1 {
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+}
+#flex-container2 {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+article {
+  height: 60px;
+  width: 60px;
+}
+.top-articles {
+  background-color: lightsalmon;
+}
+
+.bottom-articles {
+  background-color: lightseagreen;
+}
